@@ -69,11 +69,12 @@
                     </VerticalStackLayout>
                 </Frame>
 
-                <Button Text="Avançar" Clicked="Button_Clicked"/>
+                <Button Text="Avançar"
+                        Clicked="Button_Clicked"
+                        Margin="10"/>
                 
                 <Button Text="Sobre" 
                         Clicked="Button_Clicked_1"
-                        HorizontalOptions="Center"
                         VerticalOptions="End"
                         Margin="10"/>
 
